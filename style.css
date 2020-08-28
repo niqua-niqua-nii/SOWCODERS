@@ -1,0 +1,77 @@
+* {body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td
+    margin:0;
+    padding:0;
+}
+html,body {
+    margin:0;
+    padding:0;
+}
+
+body {
+  background: rgb(117,115,255);
+  background: linear-gradient(0deg, rgba(117,115,255,1) 0%, rgba(180,68,199,1) 25%, rgba(209,115,255,1) 50%, rgba(250,0,189,1) 75%, rgba(254,149,117,1) 100%);
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
+
+.tim{
+font-style: italic;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
+.menu {
+  list-style: none;
+  background-color: #ff9575;
+  margin: 10;
+  padding: 5pt;
+  overflow:auto;
+}
+.menu li a {
+  display: block;
+  color: #b90b58;
+  padding: 20px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+.menu li{
+ float: left;
+}
+.menu li a:hover:not(.artive) {
+  background-color: pink;
+}
+img {
+  width: 100px ;
+  height: 300px;
+  align-content:
+}
+.navigation-bar ul {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display:inline-block;
+  vertical-align:top;
+}
+.block {
+display: square;
+height: 20%;
+border: no-borders;
+background-color: #ff9575;
+color: white;
+font-size: 25px;
+text-align: center;
+}
+p.a {
+  white-space: nowrap;
+}
+
+p.b {
+  white-space: normal;
+}
+
+p.c {
+  white-space: pre;
+}
